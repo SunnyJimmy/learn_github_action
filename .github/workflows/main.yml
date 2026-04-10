@@ -13,3 +13,13 @@ jobs:
       run: |
         cmake -B build
         cmake --build build
+    - name: Test
+      run: exit 1
+  
+  # test:
+  #   runs-on: ubuntu-latest
+
+  #   steps:
+  #     - name: run demo
+  #       run: exit 1
+    
